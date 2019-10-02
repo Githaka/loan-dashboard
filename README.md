@@ -1,2 +1,1 @@
-# loan-dashboard
-loan section of NodCredit
+# nodcredit dashboard templating.

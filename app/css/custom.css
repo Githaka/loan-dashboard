@@ -1,0 +1,744 @@
+/* --------------------- GENERAL CSS-------------------------- */
+body .slim-header {
+    background-color: #0668E3;
+}
+
+body .nodbluebg {
+    background-color: #0668E3 !important;
+}
+
+body .nodblue {
+    color: #0668E3 !important;
+}
+
+body {
+    background-color: #F4F6F9;
+}
+
+.dark-grey {
+    color: #7A7C7F;
+
+}
+
+body .dark-two {
+    color: #212529;
+}
+
+.tx-offwhite {
+    color: #7D95B6;
+}
+
+body .tx-light-grey {
+    color: rgba(255, 255, 255, 0.84);
+}
+
+
+body p,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+    color: #212529;
+}
+
+.tx-14 {
+    font-size: 14px;
+}
+
+body .alert-d-info p {
+    margin-bottom: 12px;
+}
+
+.nod-card-height {
+    min-height: 170px;
+}
+
+.nod-card-height-2 {
+    min-height: 546px;
+}
+
+.middle-align {
+    margin: auto 0;
+}
+
+body .nod-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-width: 0px;
+    border-radius: 3px;
+}
+
+body .nod-card-inner {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+body .card-shadow {
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.01),
+        0 3px 3px 0 rgba(0, 0, 0, 0.01);
+}
+
+.card-2 {
+    border-width: 0px !important;
+    border: 0px !important;
+    border-radius: 5px !important;
+}
+
+.table-head-radius {
+    border-radius: 5px 5px 0px 0px;
+}
+
+body .card-dash-one .row>div:nth-child(odd),
+body .card-dash-one .row>div:nth-child(even) {
+    background-color: inherit;
+}
+
+.loan-amount h2 {
+    color: #6B6B6B;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+
+.loan-amount label {
+    color: #253858;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.form-group label {
+    font-weight: 500;
+}
+
+
+body .loan-amount h2 sup {
+    top: -.42em;
+    font-size: 24px;
+    right: -.2em;
+}
+
+
+body .nod-header-p {
+    color: #6B6B6B;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    line-height: 38px;
+}
+
+body .slim-footer {
+    background-color: #F4F6F9;
+
+}
+
+/* --------------------- NAVIGATON -------------------------- */
+
+
+body .slim-navbar .nav-link {
+    color: #7D95B6;
+    font-family: Graphik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-transform: capitalize;
+}
+
+body .slim-navbar .nav-item .nav-link .icon {
+    color: #7D95B6;
+    font-size: 20px;
+}
+
+
+
+body .slim-navbar .nav-item.active .nav-link {
+    background-color: unset;
+    background-image: unset;
+    border-width: 1px;
+    color: #0568e3;
+}
+
+body .slim-navbar .nav-item.active .nav-link .icon {
+    color: #0568e3;
+}
+
+body .slim-navbar .nav-link {
+    letter-spacing: 0.4px;
+}
+
+/* --------------------- ALERT INFO -------------------------- */
+
+body .alert-card-info {
+    background-color: #F7FBFF;
+    border: 1px dotted #0668E3;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.10);
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.card.alert-card-info::before {
+    content: "tect";
+    /* background-color: red; */
+    background-color: #FF9000;
+    position: absolute;
+    left: 0;
+    width: 8px;
+    color: transparent;
+    top: 0;
+    bottom: 0;
+}
+
+img.alert-icon {
+    width: 23%;
+    max-width: 50px;
+}
+
+span.alert-micon {
+    padding-right: 10px;
+}
+
+.next-payment {
+    color: #191919;
+    opacity: 0.4345005580357143;
+    text-align: center;
+}
+
+
+/* --------------------- Loan Dashboard -------------------------- */
+
+.upcomingLoan {
+    text-align: center;
+    color: #7A7C7F;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+body a.pay-loan {
+    background-color: #FF9000;
+    border: 1px solid rgba(218, 226, 223, 0.45);
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.01), 0 3px 3px 0 rgba(0, 0, 0, 0.01);
+    padding: 10px 0;
+    margin-top: -13px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+body .card-dash-one .multicard>div {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.nod-header-p-2 {
+    color: #7D95B6;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 25px 10px;
+}
+
+.light-grey-hr {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.nodscore p {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.nodscore ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    color: #fff;
+}
+
+body .modal-body.nodscore ul p {
+    color: #565656;
+    vertical-align: top;
+}
+
+
+body .modal-body.nodscore ul p img {
+    vertical-align: top;
+    margin-top: 5px;
+}
+
+
+
+.nodscore ul p span {
+    display: block;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.50)
+}
+
+.nodscore ul p {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.nodscore ul img {
+    vertical-align: top;
+    border-style: none;
+    display: inline-block;
+    margin-top: 3px;
+    padding-right: 10px;
+}
+
+.nodscore ul li:last-child {
+    margin-bottom: -10px;
+}
+
+body .dash-content hr {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+body .table thead>tr>th {
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #3E3E3E;
+    color: #fff;
+    letter-spacing: 0.5px;
+    padding: 10px 25px;
+}
+
+body .table td {
+    color: #253858;
+    padding-left: 25px;
+}
+
+body .modal .modal-header {
+    background-color: inherit;
+    border-bottom-width: 0px;
+
+}
+
+body .modal .modal-header h6 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.modal .modal-content {
+    border-radius: 10px !important;
+}
+
+body .modal-header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.flexbox-centering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.segment-active {
+    border: 1px dotted #0668E3;
+    padding: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 30px;
+    background-color: #CEE1F8;
+}
+
+.segment-inactive {
+    border: 1px dotted rgba(6, 105, 227, 0.445);
+    padding: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 30px;
+
+    transform: rotate(-90.1deg);
+    background: #EBF1F3;
+
+}
+
+.segment-bg {
+    min-width: 40%;
+}
+
+.segment-bg:last-child {
+    min-width: 0;
+}
+
+.segment-contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.segment-bg:first-child::after,
+.segment-bg:nth-child(2)::after,
+.segment-bg:nth-child(3)::after {
+    content: " ";
+    width: 107px;
+    border-bottom: 1px dotted #0668E3;
+    display: block;
+    position: absolute;
+    margin-left: 22px;
+    margin-top: -12px;
+    z-index: -10;
+}
+
+@media (max-width:500px) {
+
+    body .applyloan>.segment-bg:first-child::after,
+    body .applyloan>.segment-bg:nth-child(2)::after,
+    body .applyloan>.segment-bg:nth-child(3)::after {
+        content: " ";
+        width: 75px;
+        z-index: -10;
+    }
+
+    body .applyloan>.segment-bg {
+        min-width: 30%;
+    }
+
+    body .applyloan>.segment-bg:last-child {
+        min-width: 0;
+    }
+
+
+
+}
+
+body .loaninfo-box {
+
+    background-color: rgba(206, 225, 248, 0.5);
+    border-radius: 5px;
+}
+
+body .loaninfo-box p img {
+
+    margin-top: -5px;
+}
+
+body .btn-main {
+    background-color: #FF9000;
+    box-shadow: 0 10px 40px -10px rgba(255, 144, 0, 0.67);
+    border-radius: 4px;
+    width: auto;
+    color: #fff;
+    margin: 0 auto;
+    border-width: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+body .btn-disabled {
+    background-color: #989898;
+    border-radius: 4px;
+    width: 100%;
+    color: #fff;
+    margin: 0 auto;
+    border-width: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+
+body .btn-table {
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.09);
+    border-radius: 1px;
+    color: #0668E3;
+}
+
+body .btn-table:focus {
+    outline: unset;
+    box-shadow: unset;
+}
+
+body .btn-main:hover {
+    background-color: rgb(211, 120, 0);
+    box-shadow: unset;
+    border-radius: 4px;
+    width: auto;
+    color: #fff;
+    margin: 0 auto;
+    border-width: 0px;
+}
+
+body .table-hover tbody tr:hover {
+    background-color: rgba(0, 73, 255, 0.05);
+}
+
+body .btn-primary:not(:disabled):not(.disabled):active {
+    color: #fff;
+    background-color: unset;
+    border-color: unset;
+}
+
+
+body .custom-file {
+    width: auto;
+}
+
+body .custom-file-label::after {
+    display: none;
+}
+
+body .custom-file-label {
+    padding: 0px;
+    background-color: transparent;
+    border: 0px;
+    color: #0668E3;
+}
+
+.documentname,
+.pdf {
+    vertical-align: text-top
+}
+
+body .close {
+    vertical-align: sub;
+    opacity: 1;
+}
+
+.documentname p span {
+    font-size: 12px;
+    color: #7D95B6;
+}
+
+ol.helpinfo {
+    color: #666667;
+    font-size: 12px;
+    padding-left: 15px;
+}
+
+ol.helpinfo li {
+    margin-bottom: 5px;
+}
+
+.applydetails {
+    padding: 10px 0;
+    border-bottom: 1px solid #D8D8D8
+}
+
+.applydetails .name {
+    font-size: 14px;
+    color: #7D95B6;
+}
+
+.applydetails .detail {
+    font-size: 14px;
+    color: #212529;
+}
+
+
+.applydetails.total .detail {
+    font-weight: 500;
+    font-size: 14px;
+    color: #0668E3;
+}
+
+.repayamount h2:focus {
+    outline: unset;
+}
+
+.repayamount h2 {
+    display: inline-flex;
+}
+
+.repayamount span {
+    display: block;
+}
+
+body .loantab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+body .card-header-tabs .nav-link.active,
+body .nav-link.active {
+    border-bottom-color: #FF9000;
+    border-bottom-width: 3px;
+    background-color: transparent;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    color: 212529;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body .card-header-tabs .nav-link {
+    color: #7D95B6;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 12px;
+    height: auto;
+}
+
+body .card-header-tabs .nav-link:hover,
+body .card-header-tabs .nav-link:focus {
+    background-color: transparent;
+}
+
+body .setting-padding {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+body .card-header {
+    padding-left: 50px;
+    border-color: #E3E8EE;
+}
+
+body .custom-nav-tabs {
+    background-color: #F5F7FD;
+    border-radius: 5px 5px 0 0 !important;
+    box-shadow: 0 1px 3px 0 #D7D7E0;
+    padding-bottom: 0px;
+    padding: 0px 50px;
+}
+
+body .custom-nav-tabs .navbar {
+    padding: 0.25rem 1rem;
+}
+
+body .table td {
+    vertical-align: middle;
+}
+
+.loanstatus div {
+    display: inline-flex;
+}
+
+@media (min-width: 450px) {
+    .loanstatus {
+        text-align: right;
+    }
+}
+
+.pending {
+    color: #FF9000;
+    background: rgba(255, 142, 0, 0.10);
+    border-radius: 14.5px;
+    padding: 5px 15px;
+}
+
+.completed {
+    color: #1D6E07;
+    padding: 5px 15px;
+    background: rgba(0, 204, 71, 0.16);
+    border-radius: 23px;
+}
+
+.approved {
+    color: #0668E3;
+    padding: 5px 15px;
+    background: rgba(6, 104, 227, 0.14);
+    border-radius: 23px;
+}
+
+.rejected {
+    color: #ff0000;
+    padding: 5px 15px;
+    background: rgba(255, 0, 0, 0.09);
+    border-radius: 23px;
+}
+
+body .card-header.settingstab {
+    background-color: transparent;
+    padding-left: 5px;
+}
+
+@media (max-width: 576px) {
+    .card-30 {
+        margin-top: 30px;
+    }
+}
+
+body .atm-card {
+    background-color: #00295D;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.18);
+    border-radius: 10px 10px 10px 0 10px;
+    color: #fff;
+    min-height: 210px;
+    padding: 30px;
+}
+
+body .form-control:focus,
+body .dataTables_filter input:focus {
+    border-color: #FF9000;
+}
+
+body .form-control {
+    border-radius: 4px;
+}
+
+body .deleteCard img {
+    float: right;
+}
+
+.cardnumber span:first-child {
+    width: 100%;
+    height: 8px;
+    background: url(../assets/card-dot.svg) no-repeat;
+}
+
+.cardnumber span:nth-child(2) {
+    font-size: 18px;
+}
+
+.cardexpirydate span:nth-child(2) {
+    float: right;
+}
+
+.cardexpirydate {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.cardexpirydate span {
+    vertical-align: -webkit-baseline-middle;
+}
+
+.cardnumber {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+body .logged-user span,
+body .logged-user i {
+    display: block;
+}

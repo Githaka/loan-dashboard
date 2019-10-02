@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content=" ">
+  <meta name="keywords" content="">
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="../assets/favicon.ico" type="image/x-icon" />
+
+  <!-- Meta -->
+  <meta name="description" content="NodCredit Loan Dashboard">
+  <meta name="author" content="NodCredit">
+
+  <title>NodCredit Customer</title>
+
+  <!-- vendor css -->
+  <link href="../lib/font-awesome/css/font-awesome.css" rel="stylesheet">
+  <link href="../lib/Ionicons/css/ionicons.css" rel="stylesheet">
+  <link href="../lib/chartist/css/chartist.css" rel="stylesheet">
+  <link href="../lib/rickshaw/css/rickshaw.min.css" rel="stylesheet">
+
+  <!-- Slim CSS -->
+  <link rel="stylesheet" href="../css/custom.css">
+  <link rel="stylesheet" href="../css/slim.css">
+
+</head>
+
+<body>
+  <div class="slim-header">
+    <div class="container">
+      <div class="slim-header-left">
+        <h2 class="nod-logo slim-logo"><a href="/customer-dashboard/index.html"><img src="../assets/logo-white.svg"
+              alt="NodCredit Logo" /></a>
+        </h2>
+
+        <!-- <div class="search-box">
+          <input type="text" class="form-control" placeholder="Search">
+          <button class="btn btn-primary"><i class="fa fa-search"></i></button>
+        </div> -->
+      </div><!-- slim-header-left -->
+      <div class="slim-header-right">
+        <div class="dropdown dropdown-c">
+          <a href="#" class="logged-user" data-toggle="dropdown">
+            <span class="tx-white">Ifeanyi Umunnakwe</span>
+            <i class="fa fa-angle-down tx-white"></i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <nav class="nav">
+              <a href="settings.html" class="nav-link"><i class="icon ion-ios-gear"></i> Account Settings</a>
+              <a href="" class="nav-link"><i class="icon ion-forward"></i> Sign Out</a>
+            </nav>
+          </div><!-- dropdown-menu -->
+        </div><!-- dropdown -->
+      </div><!-- header-right -->
+    </div><!-- container -->
+  </div><!-- slim-header -->
+
+  <div class="slim-navbar">
+    <div class="container">
+      <ul class="nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">
+            <i class="icon ion-home"></i>
+            <span>Dashboard</span>
+          </a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="loanapply.html">
+            <i class="icon ion-ios-checkmark"></i>
+            <span>Apply for Loan</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="repay.html">
+            <i class="icon ion-ios-refresh"></i>
+            <span>Loan Repayment</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="loan.html">
+            <i class="icon ion-ios-list"></i>
+            <span>My Loans</span>
+          </a>
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="settings.html">
+            <i class="icon ion-ios-gear"></i>
+            <span>Profile Settings</span>
+          </a>
+        </li>
+
+      </ul>
+    </div><!-- container -->
+  </div><!-- slim-navbar -->
+
+  <div class="slim-mainpanel">
+    <div class="container mg-y-50">
+
+      <div class="card alert-card-info mg-t-30">
+        <div class="row no-gutters ">
+          <div class="col-lg-12">
+
+            <div class="row">
+              <div class="col-lg-1 m-auto">
+                <img class="" src="../assets/alert.svg" alt="" />
+              </div>
+              <div class="col-lg-11 alert-d-info">
+
+                <h5>Dashboard Information</h5>
+                <p>Loan can not be approved until the below check list is completed.</p>
+
+                <div class="row">
+                  <div class="col-md-6 m-auto">
+                    <p class="tx-12 dark-grey "><span class="alert-micon"><i class="icon ion-alert"></i></span>Work
+                      History/Employment Information
+                    </p>
+                  </div>
+                  <div class="col-md-6 m-auto">
+                    <p class="tx-12 dark-grey "><span class="alert-micon"><i
+                          class="icon ion-alert"></i></span>Debit/Credit
+                      Card. Card should be
+                      valid at least 3 months</p>
+                  </div>
+                  <div class="col-md-6 m-auto">
+                    <p class="tx-12 dark-grey "><span class="alert-micon"><i class="icon ion-alert"></i></span>Work
+                      History/Employment Information
+                    </p>
+                  </div>
+                  <div class="col-md-6 m-auto">
+                    <p class="tx-12 dark-grey "><span class="alert-micon"><i class="icon ion-alert"></i></span>Work
+                      History/Employment Information
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- alert notice-->
+
+      <div class="row mg-t-30">
+
+        <div class="col-lg-4">
+          <div class="card nod-card nod-card-height card-shadow  pd-t-15 dash-content">
+            <p class="upcomingLoan">Upcoming Payments</p>
+            <div class="box-info  loan-amount">
+              <h2 class="text-center nodblue"><sup>₦</sup>
+                12,000.56</h2>
+            </div>
+            <p class="tx-12 next-payment mg-0">Next Payment Sunday 21 July 2019</p>
+            </p>
+            <a href="repay.html" class="pay-loan">
+              Pay Now
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-8">
+
+          <div class="nod-card nod-card-height card-30  card-shadow pd-auto ">
+            <div class="card-dash-one middle-align ">
+
+              <div class="row multicard no-gutters">
+
+                <div class="col-lg-4 ">
+                  <div class="box-info m-auto text-center pd-15 loan-amount">
+                    <h2> <sup>₦</sup> 37,000</h2>
+                    <label class="dark-grey">Total Loan Recieved</label>
+                  </div><!-- dash-content -->
+                </div><!-- col-3 -->
+
+                <div class="col-lg-4">
+                  <div class="box-info m-auto text-center pd-15 loan-amount">
+                    <h2>4</h2>
+                    <label class="dark-grey">Completed Loan</label>
+                  </div><!-- dash-content -->
+                </div><!-- col-3 -->
+
+                <div class="col-lg-4">
+                  <div class="box-info m-auto text-center pd-15 loan-amount">
+                    <h2>2</h2>
+                    <label class="dark-grey">Rejected Loans</label>
+                  </div><!-- dash-content -->
+                </div><!-- col-3 -->
+
+              </div><!-- row -->
+
+            </div><!-- card -->
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="row mg-t-30">
+        <div class="col-lg-5 ">
+          <div class="card nod-card card-shadow dash-content">
+
+            <div class="nod-header-p-2">Nod Score</div>
+            <hr>
+            <div class="row pd-x-25 ">
+              <div class="col-sm-2 m-auto loan-amount">
+                <h2 class="nodblue">0</h2>
+              </div>
+              <div class="col-sm-10 m-auto">Your can increase your score as your pay your loan consistently.
+                <!-- <a href="" class="nodblue">Learn More</a> -->
+                <a href="#modaldemo8" class="modal-effect nodblue" data-toggle="modal" data-effect="effect-sign">Learn
+                  More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card nodbluebg nod-card card-shadow mg-t-10  dash-content">
+
+            <div class="nod-header-p-2 tx-light-grey">Nod Score Rewards</div>
+            <hr class="light-grey-hr">
+            <div class="pd-x-25 nodscore">
+              <p>Some of the rewards for keeping good NodScores.</p>
+              <ul>
+                <li>
+                  <img src="../assets/acessloan.svg" alt="access loan">
+                  <p>Access higher loans <span>You can access upto 50,000 now</span></p>
+                </li>
+                <li>
+                  <img src="../assets/percent.svg" alt="percentage">
+                  <p>Exclusive Interest on loans <span>You are on 15% interest now</span></p>
+                </li>
+                <li>
+                  <img src="../assets/shopping-cart.svg" alt="shoppers">
+                  <p>Privileged Shopper on our store <span>Coming soon...</span></p>
+                </li>
+              </ul>
+
+
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="nod-card card-shadow pd-auto dash-content card-30 ">
+            <div class="card-dash-one middle-align ">
+              <div class="nod-header-p-2">Transaction Activities</div>
+              <hr class="mg-0-force">
+
+
+              <div class="table-responsive ">
+                <table class="table table-hover mg-b-0">
+                  <thead class="pd-l-25">
+                    <tr>
+                      <th>Date</th>
+                      <th>Description</th>
+                      <th>Amount Paid</th>
+                      <th>Loan Balance</th>
+                    </tr>
+                  </thead>
+                  <tbody class="pd-l-25">
+                    <tr>
+                      <td>13, Sept</td>
+                      <td>Loan Repayment</td>
+                      <td>₦ 5,000.00</td>
+                      <td>₦ 5,000.00</td>
+                    </tr>
+                    <tr>
+                      <td>13, Sept</td>
+                      <td>Loan Repayment</td>
+                      <td>₦ 5,000.00</td>
+                      <td>₦ 5,000.00</td>
+                    </tr>
+                    <tr>
+                      <td>13, Sept</td>
+                      <td>Loan Repayment</td>
+                      <td>₦ 5,000.00</td>
+                      <td>₦ 5,000.00</td>
+                    </tr>
+                    <tr>
+                      <td>13, Sept</td>
+                      <td>Loan Repayment</td>
+                      <td>₦ 5,000.00</td>
+                      <td>₦ 5,000.00</td>
+                    </tr>
+                    <tr>
+                      <td>13, Sept</td>
+                      <td>Loan Repayment</td>
+                      <td>₦ 5,000.00</td>
+                      <td>₦ 5,000.00</td>
+                    </tr>
+
+                    <tr>
+                      <td>13, Sept</td>
+                      <td>Loan Repayment</td>
+                      <td>₦ 5,000.00</td>
+                      <td>₦ 5,000.00</td>
+                    </tr>
+                    <tr>
+                      <td>13, Sept</td>
+                      <td>Loan Repayment</td>
+                      <td>₦ 5,000.00</td>
+                      <td>₦ 5,000.00</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div><!-- table-responsive -->
+
+
+
+            </div><!-- row -->
+          </div><!-- card -->
+
+        </div>
+
+      </div>
+
+      <!-- MODAL EFFECTS -->
+      <div id="modaldemo8" class="modal fade nodscore-Modal">
+        <div class="modal-dialog modal-dialog-vertical-center" role="document">
+          <div class="modal-content bd-0 tx-14">
+            <div class="modal-header pd-y-20 pd-x-25">
+              <h6 class="tx-14 mg-b-0 pd-t-10 tx-500">NodScore - what helps</h6>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body pd-x-25 pd-t-0 nodscore">
+              <ul>
+                <li>
+
+                  <p><img src="../assets/arrow.svg" alt="arrow"> Making loan repayment on time.</p>
+                </li>
+                <li>
+
+                  <p> <img src="../assets/arrow.svg" alt="arrow"> Completing your profile details, it helps your
+                    score when we know as much as possible about you.
+                  </p>
+                </li>
+                <li>
+
+                  <p> <img src="../assets/arrow.svg" alt="arrow">Using the pause option doesn't affect your score
+                    negatively.</p>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </div><!-- modal-dialog -->
+      </div><!-- modal -->
+
+
+
+
+    </div><!-- container -->
+  </div><!-- slim-mainpanel -->
+
+  <!--<div class="slim-footer">
+        <div class="container">
+            <p>Copyright 2019 &copy; All Rights Reserved. NodCredit</p>
+            <p>Designed by: <a href="http://ifeanyiernest.com">Ifeanyi</a></p>
+        </div> container 
+    </div> slim-footer -->
+
+  <script src="../lib/jquery/js/jquery.js"></script>
+  <script src="../lib/popper.js/js/popper.js"></script>
+  <script src="../lib/bootstrap/js/bootstrap.js"></script>
+  <script src="../lib/jquery.cookie/js/jquery.cookie.js"></script>
+  <script src="../lib/chartist/js/chartist.js"></script>
+  <script src="../lib/d3/js/d3.js"></script>
+  <script src="../lib/rickshaw/js/rickshaw.min.js"></script>
+  <script src="../lib/jquery.sparkline.bower/js/jquery.sparkline.min.js"></script>
+
+  <script src="../js/ResizeSensor.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  <script src="../js/dashboard.js"></script>
+  <script src="../js/slim.js"></script>
+</body>
+
+</html>
